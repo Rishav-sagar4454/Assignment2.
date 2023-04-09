@@ -1,0 +1,38 @@
+#buttons-and-input {
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    background-image: linear-gradient(45deg, red 0 50%, blue 100%);
+    box-shadow: rgb(rgb(69, 39, 39), rgb(67, 90, 67), rgb(34, 34, 61));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#count {
+    text-align: center;
+    font-size: 10em;
+    margin: 10px;
+}
+
+#buttons-and-input button {
+    background-color: #632531;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#buttons-and-input button:hover {
+    cursor: pointer;
+}
+
+#increment-input {
+    padding: 5px 10px;
+    width: 200px;
+}
+
+#increment-input:focus {
+    outline: none;
+}
